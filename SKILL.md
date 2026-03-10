@@ -118,6 +118,20 @@ Avoid:
 
 ---
 
+# Generation Checklist
+
+Before constructing the final data object, verify the following:
+
+• Slide intent matches the definitions in `references/slide-definitions.md`
+• Tone follows the seller-oriented guidance in the slide definitions
+• All text follows the formatting constraints in `references/writing-rules.md`
+• No technical implementation details dominate the explanation
+• Each slide answers the question: "Why does this matter in a deal?"
+
+If any content does not meet these requirements, rewrite the slide content before continuing.
+
+---
+
 # Step 3 — Build the Data Object
 
 Construct the structured data object defined in:
