@@ -82,6 +82,8 @@ Each bullet should contain **one idea only**.
 
 Keep sentences under **12 words whenever possible**.
 
+Fewer syllables per word.
+
 Shorter is better.
 
 ---

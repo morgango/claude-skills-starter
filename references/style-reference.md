@@ -115,6 +115,8 @@ Prefer:
 Short sentences
 One idea per bullet
 Concrete language
+Fewer syllables per word
+Fewer words
 
 Example:
 
