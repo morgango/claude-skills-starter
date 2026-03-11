@@ -163,6 +163,7 @@ All keys defined in:
 `references/data-schema.md`
 
 must appear in the final `data` object.
+This includes the mental model fields: MENTAL_MODEL_TITLE, MENTAL_MODEL_DESCRIPTION, and MENTAL_MODEL_IMAGE_PROMPT.
 
 Rules:
 
@@ -170,6 +171,50 @@ Rules:
 - No extra fields may be added
 
 If a field is missing, regenerate it before proceeding.
+
+---
+
+# Mental Model Validation
+
+Mental model fields provide an everyday analogy and visual concept.
+
+Required fields:
+
+MENTAL_MODEL_TITLE
+MENTAL_MODEL_DESCRIPTION
+MENTAL_MODEL_IMAGE_PROMPT
+
+Rules:
+
+MENTAL_MODEL_TITLE
+
+Short phrase naming the analogy.
+
+Example:
+
+"Like a GPS for data"
+
+MENTAL_MODEL_DESCRIPTION
+
+Short explanation connecting the analogy to the capability.
+
+Example:
+
+"Routes queries to the right data instantly."
+
+MENTAL_MODEL_IMAGE_PROMPT
+
+A simple description of a visual scene representing the analogy.
+
+The prompt should describe **a concrete visual**, not a slogan.
+
+Good example:
+
+"A GPS navigation screen routing cars through a city."
+
+Bad example:
+
+"Transformative digital intelligence platform."
 
 ---
 
@@ -185,5 +230,6 @@ Before running deck automation confirm:
 6. Lens sentences follow exact formats.
 7. Metrics follow NUM / LABEL / DESC structure.
 8. LISTEN, SAY, and ASK values are quoted.
+9. Mental model fields exist and the image prompt describes a simple visual scene.
 
 If any rule fails, regenerate the field before creating the deck.

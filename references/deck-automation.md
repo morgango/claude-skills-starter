@@ -133,6 +133,7 @@ Expected purpose of the script:
 - Accept the populated `data` object.
 - Run `createDeckFromData()`.
 - Create a new Google Slides deck in Google Drive.
+- Name the deck `[TECH_NAME] - High Level Solution Guide` using `data.TECH_NAME`.
 - Output the resulting deck URL or ID.
 
 ## Injection Rules
@@ -405,7 +406,30 @@ Expected script behavior:
 1. Accept the `data` object
 2. Execute `createDeckFromData()`
 3. Generate a new Google Slides deck
-4. Output the resulting deck URL or ID
+4. Name the deck using the `TECH_NAME` value
+5. Output the resulting deck URL or ID
+
+
+### Deck Naming Convention
+
+The generated presentation must be named using the `TECH_NAME` value from the data object.
+
+The naming format is:
+
+`[TECH_NAME] - High Level Solution Guide`
+
+Example: `TECH_NAME: 'Elastic Workflows'` → `Elastic Workflows - High Level Solution Guide`
+
+The `createSolutionDeck` function in the Apps Script handles this via:
+
+```javascript
+var deckName = (data.TECH_NAME || 'Unknown') + ' - High Level Solution Guide';
+var copy = template.makeCopy(deckName);
+```
+
+If `TECH_NAME` is missing or empty, the deck will default to `Unknown - High Level Solution Guide`.
+
+The skill must always ensure `TECH_NAME` is populated in the data object before running automation.
 
 
 ### Injection Rules

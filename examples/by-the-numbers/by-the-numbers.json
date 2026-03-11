@@ -1,0 +1,101 @@
+
+{
+  "slide_type": "by_the_numbers",
+  "examples": [
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "METRIC_1_NUM": "3x",
+        "METRIC_1_LABEL": "Faster Search",
+        "METRIC_1_DESC": "Improves application response times for large scale search workloads.",
+        "METRIC_2_NUM": "40%",
+        "METRIC_2_LABEL": "Lower Cost",
+        "METRIC_2_DESC": "Reduces infrastructure and engineering cost compared with custom search stacks.",
+        "METRIC_3_NUM": "1",
+        "METRIC_3_LABEL": "Platform",
+        "METRIC_3_DESC": "Unifies search, analytics, and vector retrieval in one platform."
+      },
+      "notes": [
+        "Focus on performance",
+        "Economic value",
+        "Platform simplicity"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "METRIC_1_NUM": "65%",
+        "METRIC_1_LABEL": "Faster MTTR",
+        "METRIC_1_DESC": "Reduces mean time to resolution by correlating telemetry signals.",
+        "METRIC_2_NUM": "50%",
+        "METRIC_2_LABEL": "Less Tools",
+        "METRIC_2_DESC": "Consolidates logs, metrics, and traces into one observability platform.",
+        "METRIC_3_NUM": "24x",
+        "METRIC_3_LABEL": "More Data",
+        "METRIC_3_DESC": "Handles massive telemetry scale without sacrificing search speed."
+      },
+      "notes": [
+        "Incident response",
+        "Tool consolidation",
+        "Scalability message"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "METRIC_1_NUM": "10x",
+        "METRIC_1_LABEL": "Faster Investigation",
+        "METRIC_1_DESC": "Accelerates threat investigation through correlated security telemetry.",
+        "METRIC_2_NUM": "90%",
+        "METRIC_2_LABEL": "Alert Noise",
+        "METRIC_2_DESC": "Reduces alert fatigue through better correlation and detection logic.",
+        "METRIC_3_NUM": "50%",
+        "METRIC_3_LABEL": "Lower SIEM Cost",
+        "METRIC_3_DESC": "Lowers total cost compared with legacy SIEM platforms."
+      },
+      "notes": [
+        "SOC efficiency",
+        "Alert reduction",
+        "Economic SIEM replacement"
+      ]
+    },
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "METRIC_1_NUM": "40%",
+        "METRIC_1_LABEL": "Less Context",
+        "METRIC_1_DESC": "Reduces token usage through better retrieval and context engineering.",
+        "METRIC_2_NUM": "3x",
+        "METRIC_2_LABEL": "Faster Answers",
+        "METRIC_2_DESC": "Improves AI response speed by retrieving relevant context faster.",
+        "METRIC_3_NUM": "1",
+        "METRIC_3_LABEL": "Platform",
+        "METRIC_3_DESC": "Runs search, AI retrieval, and inference inside one platform."
+      },
+      "notes": [
+        "AI efficiency",
+        "Token cost reduction",
+        "Platform integration"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "METRIC_1_NUM": "3",
+        "METRIC_1_LABEL": "Solutions",
+        "METRIC_1_DESC": "Search, observability, and security delivered from one platform.",
+        "METRIC_2_NUM": "50%",
+        "METRIC_2_LABEL": "Less Complexity",
+        "METRIC_2_DESC": "Reduces operational complexity by consolidating multiple data systems.",
+        "METRIC_3_NUM": "100%",
+        "METRIC_3_LABEL": "Open",
+        "METRIC_3_DESC": "Built on open APIs and open source foundations."
+      },
+      "notes": [
+        "Platform consolidation",
+        "Operational simplicity",
+        "Strategic platform message"
+      ]
+    }
+  ]
+}

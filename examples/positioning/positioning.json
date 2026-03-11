@@ -1,0 +1,70 @@
+{
+  "slide_type": "positioning",
+  "examples": [
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "POSITIONING_BEST": "Teams adding AI into search, observability, or security workflows.",
+        "POSITIONING_NOT_FIT": "Teams wanting a standalone machine learning platform.",
+        "POSITIONING_START": "Teams asking how to use AI in real production systems.",
+        "POSITIONING_LENS": "Evaluate with real AI use cases, platform fit, and operational simplicity."
+      },
+      "notes": [
+        "Clear qualification language",
+        "Focus on real buying signals"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "POSITIONING_BEST": "Applications needing fast, relevant search across large data sets.",
+        "POSITIONING_NOT_FIT": "Small apps where basic database search already works.",
+        "POSITIONING_START": "Teams complaining search is slow or results are poor.",
+        "POSITIONING_LENS": "Evaluate with search scale, relevance needs, and user experience impact."
+      },
+      "notes": [
+        "Classic search qualification",
+        "Focus on application performance"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "POSITIONING_BEST": "Complex systems where outages are hard to diagnose.",
+        "POSITIONING_NOT_FIT": "Simple environments with few services and rare incidents.",
+        "POSITIONING_START": "Teams saying incidents take too long to resolve.",
+        "POSITIONING_LENS": "Evaluate with incident pain, system complexity, and visibility gaps."
+      },
+      "notes": [
+        "Incident-driven positioning",
+        "Clear operational triggers"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "POSITIONING_BEST": "Security teams replacing or modernizing a legacy SIEM.",
+        "POSITIONING_NOT_FIT": "Organizations with minimal monitoring or very small SOC teams.",
+        "POSITIONING_START": "Teams overwhelmed by alerts or high SIEM cost.",
+        "POSITIONING_LENS": "Evaluate with alert volume, investigation speed, and SIEM cost pressure."
+      },
+      "notes": [
+        "SIEM replacement motion",
+        "Strong economic trigger"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "POSITIONING_BEST": "Organizations trying to consolidate search, observability, and security tools.",
+        "POSITIONING_NOT_FIT": "Teams satisfied managing many separate data platforms.",
+        "POSITIONING_START": "Leaders asking how to simplify operational data systems.",
+        "POSITIONING_LENS": "Evaluate with consolidation goals, data scale, and cross team usage."
+      },
+      "notes": [
+        "Platform consolidation story",
+        "Exec-level positioning"
+      ]
+    }
+  ]
+}

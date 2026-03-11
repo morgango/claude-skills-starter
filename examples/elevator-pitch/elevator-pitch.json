@@ -1,0 +1,70 @@
+{
+  "slide_type": "elevator_pitch",
+  "examples": [
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "ELEVATOR_1": "Is a native way to run AI inference directly inside Elastic.",
+        "ELEVATOR_2": "Lets teams add AI insights without managing separate ML infrastructure.",
+        "ELEVATOR_3": "Is like a power strip for connecting different AI models."
+      },
+      "notes": [
+        "Simple explanation",
+        "Outcome focused",
+        "Strong everyday analogy"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "ELEVATOR_1": "Is a distributed search and analytics engine for massive datasets.",
+        "ELEVATOR_2": "Lets teams search, analyze, and explore data in real time.",
+        "ELEVATOR_3": "Is like a GPS that instantly routes queries to the right data."
+      },
+      "notes": [
+        "Clear technical description",
+        "Focus on speed and scale",
+        "Navigation analogy"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "ELEVATOR_1": "Is a unified platform for logs, metrics, traces, and AI insights.",
+        "ELEVATOR_2": "Lets teams detect and resolve production problems faster.",
+        "ELEVATOR_3": "Is like a flight dashboard showing the health of your software."
+      },
+      "notes": [
+        "Operational framing",
+        "Clear customer benefit",
+        "Visual analogy"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "ELEVATOR_1": "Is a unified platform for threat detection, investigation, and response.",
+        "ELEVATOR_2": "Lets security teams detect threats earlier across endpoints and cloud systems.",
+        "ELEVATOR_3": "Is like airport security scanning activity to stop threats early."
+      },
+      "notes": [
+        "Security outcome first",
+        "Detection emphasis",
+        "Familiar real-world analogy"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "ELEVATOR_1": "Is a data platform for search, observability, security, and AI.",
+        "ELEVATOR_2": "Lets teams unify operational data and build powerful applications.",
+        "ELEVATOR_3": "Is like a central nervous system connecting signals across systems."
+      },
+      "notes": [
+        "Platform framing",
+        "Cross-team value",
+        "System coordination analogy"
+      ]
+    }
+  ]
+}

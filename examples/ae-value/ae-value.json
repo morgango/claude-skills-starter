@@ -1,0 +1,49 @@
+
+
+{
+  "slide_type": "ae_value",
+  "examples": [
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "AE_1": "Removes friction of separate AI infrastructure conversations.",
+        "AE_2": "Opens AI platform expansion within existing Elastic deployments.",
+        "AE_3": "Simplifies positioning against fragmented AI toolchains.",
+        "AE_LENS": "Think about observability customers, security customers, and AI-curious accounts."
+      },
+      "notes": [
+        "Focuses on deal momentum",
+        "Shows expansion opportunity",
+        "Connects AI to existing Elastic footprint"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "AE_1": "Creates urgency when outages expose monitoring blind spots.",
+        "AE_2": "Expands footprint across logs, metrics, traces, and AI insights.",
+        "AE_3": "Positions Elastic against fragmented monitoring stacks.",
+        "AE_LENS": "Think about fast-growing platforms, reliability-critical services, and cost-focused engineering leaders."
+      },
+      "notes": [
+        "Anchors on incident response",
+        "Highlights platform consolidation",
+        "Speaks to real buying triggers"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "AE_1": "Creates new conversations with security teams already using Elastic.",
+        "AE_2": "Expands platform deals across SIEM, endpoint, and AI-driven detection.",
+        "AE_3": "Simplifies competitive positioning against expensive legacy SIEM platforms.",
+        "AE_LENS": "Think about SOC teams, SIEM replacements, and organizations consolidating security tools."
+      },
+      "notes": [
+        "Strong land-and-expand story",
+        "Clear competitive positioning",
+        "Aligned to security buyer priorities"
+      ]
+    }
+  ]
+}

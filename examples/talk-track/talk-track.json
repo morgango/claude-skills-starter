@@ -1,0 +1,90 @@
+{
+  "slide_type": "talk_track",
+  "examples": [
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "LISTEN_1": "\"We spend hours figuring out what actually broke.\"",
+        "LISTEN_2": "\"Our monitoring tools all show different things.\"",
+        "LISTEN_3": "\"It takes too long to find the root cause.\"",
+        "SAY_1": "\"Elastic correlates logs, metrics, and traces so teams see the full picture.\"",
+        "SAY_2": "\"Most teams use Elastic to shorten incident response and restore services faster.\"",
+        "ASK_1": "\"How long does it usually take your team to isolate the root cause?\"",
+        "NEXT_STEP": "Review a recent incident together and map how Elastic would diagnose it."
+      },
+      "notes": [
+        "Incident driven conversation",
+        "Root cause discovery",
+        "Engineering audience"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "LISTEN_1": "\"Users cannot find what they need in our application.\"",
+        "LISTEN_2": "\"Search results feel slow and irrelevant.\"",
+        "LISTEN_3": "\"We built search ourselves and it keeps breaking.\"",
+        "SAY_1": "\"Elasticsearch is designed to deliver fast, relevant search at massive scale.\"",
+        "SAY_2": "\"Teams adopt Elastic when search becomes critical to the user experience.\"",
+        "ASK_1": "\"What happens to your business when users cannot find information quickly?\"",
+        "NEXT_STEP": "Review the current search architecture and identify relevance improvement opportunities."
+      },
+      "notes": [
+        "Product discovery",
+        "Application performance",
+        "User experience focus"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "LISTEN_1": "\"Our analysts spend most of their time chasing alerts.\"",
+        "LISTEN_2": "\"Investigations require jumping between multiple tools.\"",
+        "LISTEN_3": "\"Our SIEM is expensive and hard to operate.\"",
+        "SAY_1": "\"Elastic unifies security telemetry so investigations happen in one platform.\"",
+        "SAY_2": "\"Security teams use Elastic to detect threats earlier and investigate faster.\"",
+        "ASK_1": "\"How much time does your SOC spend investigating false positives?\"",
+        "NEXT_STEP": "Walk through a recent investigation and show how Elastic would streamline it."
+      },
+      "notes": [
+        "SOC workflow",
+        "Alert fatigue",
+        "SIEM replacement conversation"
+      ]
+    },
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "LISTEN_1": "\"We want to use AI but integrating models is complicated.\"",
+        "LISTEN_2": "\"AI projects are hard to operationalize in production.\"",
+        "LISTEN_3": "\"Our teams are experimenting but nothing is deployed yet.\"",
+        "SAY_1": "\"Elastic lets teams run AI inference directly inside their existing workflows.\"",
+        "SAY_2": "\"Most teams use Elastic to operationalize AI without new infrastructure.\"",
+        "ASK_1": "\"Where would AI create the most value in your existing workflows?\"",
+        "NEXT_STEP": "Identify one production workflow where AI inference could improve outcomes."
+      },
+      "notes": [
+        "Operational AI",
+        "Workflow integration",
+        "Platform expansion"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "LISTEN_1": "\"We have too many tools managing operational data.\"",
+        "LISTEN_2": "\"Different teams use different platforms for the same data.\"",
+        "LISTEN_3": "\"Our data architecture has become too complex.\"",
+        "SAY_1": "\"Elastic consolidates search, observability, and security on one data platform.\"",
+        "SAY_2": "\"Many organizations adopt Elastic to simplify operational data architecture.\"",
+        "ASK_1": "\"How many different systems manage operational data today?\"",
+        "NEXT_STEP": "Map the current tooling landscape and identify consolidation opportunities."
+      },
+      "notes": [
+        "Platform consolidation",
+        "Executive conversation",
+        "Operational complexity"
+      ]
+    }
+  ]
+}

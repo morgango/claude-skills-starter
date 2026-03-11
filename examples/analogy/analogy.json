@@ -1,0 +1,26 @@
+{
+    "slide_type": "mental_model",
+    "examples": [
+      {
+        "technology": "Elastic Inference Service",
+        "fields": {
+          "MENTAL_MODEL_TITLE": "Like a power strip for AI models",
+          "MENTAL_MODEL_DESCRIPTION": "One platform lets teams plug different models into the same system.",
+          "MENTAL_MODEL_IMAGE_PROMPT": "A desk power strip with multiple plugs connected."
+        },
+        "notes": [
+          "Everyday analogy",
+          "Clear visual",
+          "Easy for sellers to repeat"
+        ]
+      },
+      {
+        "technology": "Elasticsearch",
+        "fields": {
+          "MENTAL_MODEL_TITLE": "Like a GPS for your data",
+          "MENTAL_MODEL_DESCRIPTION": "Routes queries to the right data instantly.",
+          "MENTAL_MODEL_IMAGE_PROMPT": "A car GPS navigation screen routing through a city."
+        }
+      }
+    ]
+  }

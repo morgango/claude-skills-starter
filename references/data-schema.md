@@ -31,7 +31,14 @@ var data = {
   ELEVATOR_3: 'Is like [simple analogy understandable by a seller].',
 
 
-  // Slide 11: Positioning
+  // Slide 11: Mental Model / Everyday Analogy
+  // A familiar analogy and visual cue that make the capability intuitive
+
+  MENTAL_MODEL_TITLE: '[Short name for the analogy].',
+  MENTAL_MODEL_DESCRIPTION: '[Short explanation of how the analogy maps to the capability].',
+  MENTAL_MODEL_IMAGE_PROMPT: '[Simple image prompt describing the visual for the analogy].',
+
+  // Slide 12: Positioning
   // Helps sellers understand when to bring the technology into a deal
 
   POSITIONING_BEST:    '[Conditions where the technology works best].',
@@ -39,39 +46,34 @@ var data = {
   POSITIONING_START:   '[Customer signal that usually starts the conversation].',
   POSITIONING_LENS:    'Evaluate with [criterion1], [criterion2], and [criterion3].',
 
-
-  // Slide 12: Feels Different Because
+  // Slide 13: Feels Different Because
   // Observable customer-facing differentiators
 
   DIFFERENT_1: '[Customer-observable difference compared to alternatives].',
   DIFFERENT_2: '[Another visible operational or usability improvement].',
 
-
-  // Slide 13: Why This Matters to Customers
+  // Slide 14: Why This Matters to Customers
 
   CUSTOMER_1:    'Lets teams [specific action] to [specific outcome].',
   CUSTOMER_2:    'Reduces [specific operational pain] through [mechanism].',
   CUSTOMER_3:    '[Business outcome expressed as operational or financial value].',
   CUSTOMER_LENS: 'Evaluate with [criterion1], [criterion2], and [criterion3].',
 
-
-  // Slide 14: Why This Matters to You (AE)
+  // Slide 15: Why This Matters to You (AE)
 
   AE_1:    'Will [remove common sales friction or objection].',
   AE_2:    'Is [clear revenue motion or opportunity this opens].',
   AE_3:    'Can [simplify competitive positioning].',
   AE_LENS: 'Think about [account type 1], [type 2], and [type 3].',
 
-
-  // Slide 16: How to Sell
+  // Slide 17: How to Sell
 
   SELL_PURSUE: '[Customer signal indicating urgency or strong fit].',
   SELL_PAUSE:  '[Signal that the opportunity may stall].',
   SELL_OPEN:   '"[Discovery question a seller can ask]"',
   SELL_LENS:   'Qualify in on [criterion1], [criterion2], and [criterion3].',
 
-
-  // Slide 17: By the Numbers
+  // Slide 18: By the Numbers
 
   METRIC_1_NUM:   '[Example: 3x]',
   METRIC_1_LABEL: '[Example: Faster]',
@@ -85,22 +87,19 @@ var data = {
   METRIC_3_LABEL: '[Example: Platform]',
   METRIC_3_DESC:  '[Sentence explaining simplification or consolidation].',
 
-
-  // Slide 18: Customer Story
+  // Slide 19: Customer Story
 
   CUSTOMER_STORY:        '[Company] used [technology] and achieved [result].',
   CUSTOMER_STORY_DETAIL: '[Specific measurable improvement or operational benefit].',
 
-
-  // Slide 19: How NOT to Sell
+  // Slide 20: How NOT to Sell
 
   NOT_SELL_1:    'Do not lead with [technical feature]; lead with customer pain.',
   NOT_SELL_2:    'Do not advance without confirming the problem exists.',
   NOT_SELL_3:    'Do not frame the solution as a feature comparison.',
   NOT_SELL_LENS: 'Qualify out on [criterion1], [criterion2], and [criterion3].',
 
-
-  // Slide 20: How to Talk with Customers
+  // Slide 21: How to Talk with Customers
 
   LISTEN_1: '"[Customer pain phrase heard during discovery]"',
   LISTEN_2: '"[Customer pain phrase heard during discovery]"',
@@ -138,7 +137,7 @@ Important constraints include:
 
 Before attempting deck automation, the skill must confirm:
 
-1. Every schema key is present
+1. Every schema key is present, including the mental model fields
 2. No additional keys were added
 3. Word limits are respected
 4. Lens sentences follow exact phrasing

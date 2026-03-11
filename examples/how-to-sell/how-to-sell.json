@@ -1,0 +1,77 @@
+
+
+{
+  "slide_type": "how_to_sell",
+  "examples": [
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "SELL_PURSUE": "Teams actively exploring how to add AI into existing Elastic workflows.",
+        "SELL_PAUSE": "Teams experimenting with AI but without clear production use cases.",
+        "SELL_OPEN": "How are you planning to operationalize AI inside existing systems?",
+        "SELL_LENS": "Qualify in on AI use cases, platform consolidation, and operational simplicity."
+      },
+      "notes": [
+        "Focus on operationalizing AI",
+        "Good entry question",
+        "Targets existing Elastic footprint"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "SELL_PURSUE": "Applications struggling with slow search or poor relevance at scale.",
+        "SELL_PAUSE": "Small applications where basic database search is sufficient.",
+        "SELL_OPEN": "What happens when users cannot find what they need quickly?",
+        "SELL_LENS": "Qualify in on search scale, relevance problems, and user experience impact."
+      },
+      "notes": [
+        "Customer experience trigger",
+        "Clear relevance problem",
+        "Classic search entry motion"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "SELL_PURSUE": "Engineering teams struggling to diagnose incidents across complex systems.",
+        "SELL_PAUSE": "Organizations with simple architectures and limited operational complexity.",
+        "SELL_OPEN": "How long does it usually take to identify the root cause?",
+        "SELL_LENS": "Qualify in on system complexity, incident response pain, and visibility gaps."
+      },
+      "notes": [
+        "Incident-driven selling",
+        "Root cause discovery question",
+        "Strong engineering trigger"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "SELL_PURSUE": "Security teams overwhelmed by alerts or expensive SIEM operations.",
+        "SELL_PAUSE": "Organizations with minimal security monitoring maturity.",
+        "SELL_OPEN": "How much time does your team spend investigating false positives?",
+        "SELL_LENS": "Qualify in on SIEM cost pressure, alert volume, and investigation speed."
+      },
+      "notes": [
+        "SOC efficiency trigger",
+        "Economic buyer angle",
+        "Investigation workflow focus"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "SELL_PURSUE": "Leaders trying to consolidate multiple observability and security tools.",
+        "SELL_PAUSE": "Organizations committed to maintaining separate specialized data platforms.",
+        "SELL_OPEN": "How many different tools does your team use to understand operational data?",
+        "SELL_LENS": "Qualify in on platform consolidation, data scale, and cross-team collaboration."
+      },
+      "notes": [
+        "Executive consolidation story",
+        "Platform conversation",
+        "Strong cost and complexity driver"
+      ]
+    }
+  ]
+}

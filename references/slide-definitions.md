@@ -67,34 +67,39 @@ ELEVATOR_2
 ELEVATOR_3
 
 Slide 11
+MENTAL_MODEL_TITLE
+MENTAL_MODEL_DESCRIPTION
+MENTAL_MODEL_IMAGE_PROMPT
+
+Slide 12
 POSITIONING_BEST
 POSITIONING_NOT_FIT
 POSITIONING_START
 POSITIONING_LENS
 
-Slide 12
+Slide 13
 DIFFERENT_1
 DIFFERENT_2
 
-Slide 13
+Slide 14
 CUSTOMER_1
 CUSTOMER_2
 CUSTOMER_3
 CUSTOMER_LENS
 
-Slide 14
+Slide 15
 AE_1
 AE_2
 AE_3
 AE_LENS
 
-Slide 16
+Slide 17
 SELL_PURSUE
 SELL_PAUSE
 SELL_OPEN
 SELL_LENS
 
-Slide 17
+Slide 18
 METRIC_1_NUM
 METRIC_1_LABEL
 METRIC_1_DESC
@@ -105,17 +110,17 @@ METRIC_3_NUM
 METRIC_3_LABEL
 METRIC_3_DESC
 
-Slide 18
+Slide 19
 CUSTOMER_STORY
 CUSTOMER_STORY_DETAIL
 
-Slide 19
+Slide 20
 NOT_SELL_1
 NOT_SELL_2
 NOT_SELL_3
 NOT_SELL_LENS
 
-Slide 20
+Slide 21
 LISTEN_1
 LISTEN_2
 LISTEN_3
@@ -144,7 +149,39 @@ The goal is clarity and memorability, not technical precision.
 
 ---
 
-# Slide 11 — Positioning
+# Slide 11 — Mental Model / Everyday Analogy
+
+## Purpose
+
+Give the seller a **simple, intuitive everyday analogy** that makes the capability easier to understand.
+
+This slide should help the audience build a mental model before deeper positioning or value discussion.
+
+## Intent
+
+• Connect the capability to something familiar
+• Make the concept feel intuitive and memorable
+• Reinforce the explanation with a visual image
+
+The analogy should feel natural, practical, and easy to repeat in conversation.
+
+## Field Intent
+
+MENTAL_MODEL_TITLE
+
+A short phrase that names the analogy.
+
+MENTAL_MODEL_DESCRIPTION
+
+A short explanation of how the analogy maps to the capability.
+
+MENTAL_MODEL_IMAGE_PROMPT
+
+A simple image description that could be used to find or generate a visual for the slide.
+
+---
+
+# Slide 12 — Positioning
 
 ## Purpose
 
@@ -161,7 +198,7 @@ This slide helps an AE quickly decide whether to introduce the topic in conversa
 
 ---
 
-# Slide 12 — Feels Different Because
+# Slide 13 — Feels Different Because
 
 ## Purpose
 
@@ -179,7 +216,7 @@ Avoid internal architecture details.
 
 ---
 
-# Slide 13 — Why This Matters to Customers
+# Slide 14 — Why This Matters to Customers
 
 ## Purpose
 
@@ -197,7 +234,7 @@ This slide answers the customer question:
 
 ---
 
-# Slide 14 — Why This Matters to You (AE)
+# Slide 15 — Why This Matters to You (AE)
 
 ## Purpose
 
@@ -215,7 +252,7 @@ This slide answers the seller question:
 
 ---
 
-# Slide 16 — How to Sell
+# Slide 17 — How to Sell
 
 ## Purpose
 
@@ -231,7 +268,7 @@ This slide focuses on **deal motion**, not product explanation.
 
 ---
 
-# Slide 17 — By the Numbers
+# Slide 18 — By the Numbers
 
 ## Purpose
 
@@ -249,7 +286,7 @@ Metrics should be realistic and defensible.
 
 ---
 
-# Slide 18 — Customer Story / Proof Point
+# Slide 19 — Customer Story / Proof Point
 
 ## Purpose
 
@@ -265,7 +302,7 @@ Stories help sellers visualize how the capability works in practice.
 
 ---
 
-# Slide 19 — How NOT to Sell
+# Slide 20 — How NOT to Sell
 
 ## Purpose
 
@@ -281,13 +318,13 @@ This slide protects sellers from unproductive approaches.
 
 ---
 
-# Slide 20 — How to Talk with Customers
+# Slide 21 — How to Talk with Customers
 
 ## Purpose
 
 Provide conversational guidance sellers can use in discovery.
 
-This slide simulates realistic customer dialogue.
+This slide simulates realistic customer dialogue.  We want to define 3 things to listen for, 2 things to say, one thing to ask, and one next step.
 
 ## Intent
 

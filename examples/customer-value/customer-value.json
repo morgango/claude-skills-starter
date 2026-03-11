@@ -1,0 +1,75 @@
+{
+  "slide_type": "customer_value",
+  "examples": [
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "CUSTOMER_1": "Lets teams find production problems before customers are impacted.",
+        "CUSTOMER_2": "Reduces resolution time by linking logs, metrics, and traces.",
+        "CUSTOMER_3": "Improves service reliability and overall customer experience.",
+        "CUSTOMER_LENS": "Evaluate with incident frequency, system complexity, and visibility gaps."
+      },
+      "notes": [
+        "Focus on incidents and outages",
+        "Clear reliability outcome",
+        "Matches common observability buying trigger"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "CUSTOMER_1": "Lets teams deliver fast, relevant search in customer applications.",
+        "CUSTOMER_2": "Reduces engineering effort spent building and tuning search systems.",
+        "CUSTOMER_3": "Improves product discovery, engagement, and conversion.",
+        "CUSTOMER_LENS": "Evaluate with search relevance, data scale, and user experience impact."
+      },
+      "notes": [
+        "Anchors on customer experience",
+        "Common ecommerce and application use case",
+        "Simple seller language"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "CUSTOMER_1": "Lets security teams detect threats earlier across their environment.",
+        "CUSTOMER_2": "Reduces investigation time by correlating alerts and activity.",
+        "CUSTOMER_3": "Improves SOC productivity while lowering SIEM operating costs.",
+        "CUSTOMER_LENS": "Evaluate with alert volume, investigation speed, and SIEM cost pressure."
+      },
+      "notes": [
+        "SOC efficiency message",
+        "Highlights investigation workflow",
+        "Connects to SIEM replacement conversations"
+      ]
+    },
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "CUSTOMER_1": "Lets teams add AI insights directly into existing Elastic workflows.",
+        "CUSTOMER_2": "Reduces complexity by running inference inside the Elastic platform.",
+        "CUSTOMER_3": "Helps teams operationalize AI without new infrastructure.",
+        "CUSTOMER_LENS": "Evaluate with AI use cases, workflow integration, and operational simplicity."
+      },
+      "notes": [
+        "Focus on operational AI",
+        "Highlights platform advantage",
+        "Simple explanation for sellers"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "CUSTOMER_1": "Lets teams run search, observability, and security on one platform.",
+        "CUSTOMER_2": "Reduces complexity by replacing multiple specialized data systems.",
+        "CUSTOMER_3": "Improves collaboration across engineering, operations, and security teams.",
+        "CUSTOMER_LENS": "Evaluate with platform consolidation goals, data scale, and cross team use."
+      },
+      "notes": [
+        "Platform consolidation story",
+        "Executive level value",
+        "Cross team collaboration message"
+      ]
+    }
+  ]
+}

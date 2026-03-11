@@ -1,0 +1,77 @@
+
+
+{
+  "slide_type": "how_not_to_sell",
+  "examples": [
+    {
+      "technology": "Elastic Inference Service",
+      "fields": {
+        "NOT_SELL_1": "Do not lead with model types or ML architecture details.",
+        "NOT_SELL_2": "Do not pitch AI before confirming real production use cases.",
+        "NOT_SELL_3": "Do not advance without understanding how AI fits existing workflows.",
+        "NOT_SELL_LENS": "Qualify out on experimental AI interest, unclear use cases, and isolated ML projects."
+      },
+      "notes": [
+        "Avoid technical AI discussions",
+        "Focus on production use cases",
+        "Tie to operational workflows"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "fields": {
+        "NOT_SELL_1": "Do not start with cluster architecture or shard configuration.",
+        "NOT_SELL_2": "Do not assume search is a problem without user impact.",
+        "NOT_SELL_3": "Do not advance without confirming relevance or performance issues.",
+        "NOT_SELL_LENS": "Qualify out on small datasets, simple apps, and low search importance."
+      },
+      "notes": [
+        "Avoid infrastructure conversation",
+        "Anchor on user experience",
+        "Focus on real search problems"
+      ]
+    },
+    {
+      "technology": "Elastic Observability",
+      "fields": {
+        "NOT_SELL_1": "Do not lead with dashboards or visualization features.",
+        "NOT_SELL_2": "Do not pitch observability without incident or outage pain.",
+        "NOT_SELL_3": "Do not advance without understanding current monitoring limitations.",
+        "NOT_SELL_LENS": "Qualify out on simple systems, low incident frequency, and limited operational complexity."
+      },
+      "notes": [
+        "Incident-driven selling",
+        "Avoid tool demo first",
+        "Focus on operational pain"
+      ]
+    },
+    {
+      "technology": "Elastic Security",
+      "fields": {
+        "NOT_SELL_1": "Do not start with detection rule libraries or technical features.",
+        "NOT_SELL_2": "Do not pitch SIEM replacement without understanding SOC workflows.",
+        "NOT_SELL_3": "Do not advance without confirming alert volume or investigation pain.",
+        "NOT_SELL_LENS": "Qualify out on immature security programs, small teams, and low monitoring needs."
+      },
+      "notes": [
+        "SOC workflow first",
+        "Avoid feature checklist",
+        "Confirm investigation pain"
+      ]
+    },
+    {
+      "technology": "Elastic Platform",
+      "fields": {
+        "NOT_SELL_1": "Do not pitch platform vision before identifying consolidation goals.",
+        "NOT_SELL_2": "Do not assume customers want fewer tools without confirming cost pressure.",
+        "NOT_SELL_3": "Do not advance without understanding current data platform complexity.",
+        "NOT_SELL_LENS": "Qualify out on satisfied tool stacks, small environments, and limited data scale."
+      },
+      "notes": [
+        "Executive positioning",
+        "Platform consolidation trigger",
+        "Focus on operational complexity"
+      ]
+    }
+  ]
+}
