@@ -4,12 +4,468 @@ This document explains the **intent, tone, and purpose of each slide** generated
 
 The goal of this deck format is to help **Elastic sellers (especially Account Executives)** quickly understand a capability well enough to:
 
+• recognize opportunities  
+• explain the capability simply  
+• position it in a deal  
+• guide customer conversations
+
+Slides are **conversation prompts**, not documentation.
+
+---
+
+# Global Tone and Intent
+
+This presentation format is designed for **Elastic sellers explaining a capability to other sellers**.
+
+The tone should be:
+
+• clear  
+• practical  
+• conversational  
+• outcome-focused  
+• deal-oriented
+
+Slides should emphasize:
+
+• customer outcomes  
+• operational improvements  
+• sales positioning  
+• discovery signals  
+• competitive differentiation
+
+Avoid language that sounds like:
+
+• product documentation  
+• engineering design notes  
+• architecture explanations  
+• feature lists  
+• marketing slogans
+
+Each bullet should sound like something an experienced seller would say in a team meeting or customer discussion. Bullets should not repeat phrases or points already made within the same slide.
+
+
+Useful tests when writing slide content:
+
+**"Why does this matter in a commercial software deal?"**
+**"Would this make sense to a less technical evaluator?"**
+**"Does this express a firm opinion?"**
+
+If a bullet does not help a seller answer these questions, rewrite it.
+
+---
+
+# Scenario Consistency Rule
+
+All slides in the deck should reference **the same operational scenario**.
+
+The scenario is defined by:
+
+• a specific persona  
+• a specific operational problem  
+• a specific environment
+
+Every slide should reinforce this scenario rather than introducing unrelated examples.
+
+This keeps the presentation coherent and prevents generic or disconnected content.
+
+---
+
+# Machine‑Readable Slide Map
+
+This section maps slides to schema fields used to populate them.
+
+The schema itself is defined in:
+
+`references/data-schema.md`
+
+Slide 10  
+ELEVATOR_1  
+ELEVATOR_2  
+ELEVATOR_3
+
+Slide 11  
+MENTAL_MODEL_TITLE  
+MENTAL_MODEL_DESCRIPTION  
+MENTAL_MODEL_IMAGE_PROMPT
+
+Slide 12  
+POSITIONING_BEST  
+POSITIONING_NOT_FIT  
+POSITIONING_START  
+POSITIONING_LENS
+
+Slide 13  
+DIFFERENT_1  
+DIFFERENT_2
+
+Slide 14  
+CUSTOMER_1  
+CUSTOMER_2  
+CUSTOMER_3  
+CUSTOMER_LENS
+
+Slide 15  
+AE_1  
+AE_2  
+AE_3  
+AE_LENS
+
+Slide 17  
+SELL_PURSUE  
+SELL_PAUSE  
+SELL_OPEN  
+SELL_LENS
+
+Slide 18  
+METRIC_1_NUM  
+METRIC_1_LABEL  
+METRIC_1_DESC  
+METRIC_2_NUM  
+METRIC_2_LABEL  
+METRIC_2_DESC  
+METRIC_3_NUM  
+METRIC_3_LABEL  
+METRIC_3_DESC
+
+Slide 19  
+CUSTOMER_STORY  
+CUSTOMER_STORY_DETAIL
+
+Slide 20  
+NOT_SELL_1  
+NOT_SELL_2  
+NOT_SELL_3  
+NOT_SELL_LENS
+
+Slide 21  
+LISTEN_1  
+LISTEN_2  
+LISTEN_3  
+SAY_1  
+SAY_2  
+ASK_1  
+NEXT_STEP
+
+---
+
+# Slide 10 — Elevator Pitch
+
+This slide helps a seller **explain the capability in under 30 seconds**.
+
+## Purpose
+
+Give the seller a **short explanation they can repeat easily in conversation**.
+
+## Intent
+
+• Describe the innovation in simple language  
+• Avoid heavy technical terminology  
+• Provide a memorable explanation
+
+## Field Intent
+
+ELEVATOR_1  
+Defines what the capability is in clear language.
+
+ELEVATOR_2  
+Explains the primary outcome or benefit for users.
+
+ELEVATOR_3  
+Provides a simple analogy or mental shortcut that makes the idea memorable.
+
+---
+
+# Slide 11 — Mental Model / Everyday Analogy
+
+This slide creates an **intuitive mental model** for the technology.
+
+## Purpose
+
+Make the concept easy to understand through a familiar everyday analogy.
+
+## Intent
+
+• Connect the capability to something familiar  
+• Make the concept intuitive and memorable  
+• Reinforce the explanation visually
+
+## Field Intent
+
+MENTAL_MODEL_TITLE  
+Short phrase that names the analogy.
+
+MENTAL_MODEL_DESCRIPTION  
+Explanation of how the analogy maps to the capability.
+
+MENTAL_MODEL_IMAGE_PROMPT  
+Description used to generate or locate the slide image.
+
+---
+
+# Slide 12 — Positioning
+
+This slide helps a seller **recognize when to introduce the capability in a deal**.
+
+## Purpose
+
+Help sellers quickly decide if the topic is relevant in a conversation.
+
+## Intent
+
+• Identify ideal environments  
+• Provide an honest disqualifier  
+• Show the trigger that starts the conversation
+
+## Field Intent
+
+POSITIONING_BEST  
+Situations where the capability works best.
+
+POSITIONING_NOT_FIT  
+Scenarios where the capability is not a strong fit.
+
+POSITIONING_START  
+Signal that usually triggers the discussion.
+
+POSITIONING_LENS  
+Framework sellers can use to evaluate opportunities.
+
+---
+
+# Slide 13 — Feels Different Because
+
+This slide explains **why the capability feels meaningfully different** from alternatives.
+
+## Purpose
+
+Highlight differences customers would notice in real usage.
+
+## Intent
+
+• Emphasize operational improvements  
+• Reinforce simplicity or integration advantages
+
+## Field Intent
+
+DIFFERENT_1  
+A practical difference customers would immediately notice.
+
+DIFFERENT_2  
+Another operational improvement reinforcing differentiation.
+
+---
+
+# Slide 14 — Why This Matters to Customers
+
+This slide answers the question:
+
+**"Why should customers care about this?"**
+
+## Purpose
+
+Translate the capability into operational outcomes and business value.
+
+## Intent
+
+• Connect the capability to measurable benefits  
+• Emphasize operational improvement
+
+## Field Intent
+
+CUSTOMER_1  
+Primary operational outcome for the customer.
+
+CUSTOMER_2  
+Efficiency or reliability improvement.
+
+CUSTOMER_3  
+Broader business value created.
+
+CUSTOMER_LENS  
+Criteria customers use when evaluating solutions.
+
+---
+
+# Slide 15 — Why This Matters to You (AE)
+
+This slide answers the seller question:
+
+**"How does this help me win deals?"**
+
+## Purpose
+
+Explain the value of the capability for Elastic sellers.
+
+## Intent
+
+• Highlight revenue opportunities  
+• Identify expansion motions  
+• Simplify competitive positioning
+
+## Field Intent
+
+AE_1  
+How the capability unlocks or advances a conversation.
+
+AE_2  
+Revenue opportunity or expansion motion.
+
+AE_3  
+How the capability strengthens competitive positioning.
+
+AE_LENS  
+Account types where the capability is valuable.
+
+---
+
+# Slide 17 — How to Sell
+
+This slide focuses on **deal motion**, not product explanation.
+
+## Purpose
+
+Help sellers recognize and open opportunities.
+
+## Intent
+
+• Identify strong opportunity signals  
+• Highlight weak opportunities  
+• Provide a discovery question
+
+## Field Intent
+
+SELL_PURSUE  
+Signal indicating a strong opportunity.
+
+SELL_PAUSE  
+Signal that the opportunity may stall.
+
+SELL_OPEN  
+Discovery question that starts the conversation.
+
+SELL_LENS  
+Criteria sellers can use to qualify opportunities.
+
+---
+
+# Slide 18 — By the Numbers
+
+This slide reinforces the value story with **credible metrics**.
+
+## Purpose
+
+Make the value believable and repeatable.
+
+## Intent
+
+• Show measurable improvement  
+• Reinforce operational efficiency
+
+## Field Intent
+
+METRIC_1_NUM / METRIC_1_LABEL / METRIC_1_DESC  
+First metric supporting the value narrative.
+
+METRIC_2_NUM / METRIC_2_LABEL / METRIC_2_DESC  
+Second metric supporting operational improvement.
+
+METRIC_3_NUM / METRIC_3_LABEL / METRIC_3_DESC  
+Third metric highlighting efficiency or simplicity gains.
+
+---
+
+# Slide 19 — Customer Story / Proof Point
+
+Stories help sellers **visualize real usage of the capability**.
+
+## Purpose
+
+Provide credibility through a realistic customer example.
+
+## Intent
+
+• Demonstrate real-world usage  
+• Reinforce the value narrative
+
+## Field Intent
+
+CUSTOMER_STORY  
+Company and summary of the implementation.
+
+CUSTOMER_STORY_DETAIL  
+Specific measurable outcome.
+
+---
+
+# Slide 20 — How NOT to Sell
+
+This slide protects sellers from **common positioning mistakes**.
+
+## Purpose
+
+Prevent approaches that weaken deals.
+
+## Intent
+
+• Warn against technical deep dives  
+• Discourage feature‑driven selling
+
+## Field Intent
+
+NOT_SELL_1  
+Common positioning mistake.
+
+NOT_SELL_2  
+Another behavior that weakens deals.
+
+NOT_SELL_3  
+Mistake that causes stalled opportunities.
+
+NOT_SELL_LENS  
+Signals sellers should qualify out.
+
+---
+
+# Slide 21 — How to Talk with Customers
+
+This slide simulates **real discovery dialogue**.
+
+## Purpose
+
+Provide conversational guidance for discovery conversations.
+
+## Intent
+
+• Surface common customer statements  
+• Provide positioning responses  
+• Suggest discovery questions  
+• Guide the next step
+
+## Field Intent
+
+LISTEN_1 / LISTEN_2 / LISTEN_3  
+Realistic customer pain statements.
+
+SAY_1 / SAY_2  
+Short positioning responses connecting Elastic to the problem.
+
+ASK_1  
+Discovery question that deepens the conversation.
+
+NEXT_STEP  
+Clear action that advances the opportunity.
+# Slide Definitions Reference
+
+This document explains the **intent, tone, and purpose of each slide** generated by the `high-level-tech-presentation` skill.
+
+The goal of this deck format is to help **Elastic sellers (especially Account Executives)** quickly understand a capability well enough to:
+
 • recognize opportunities
 • explain the capability simply
 • position it in a deal
 • guide customer conversations
 
-Slides are **conversation prompts**, not documentation.
+Slides are **conversation prompts**, not documentation. The slide should trigger the idea, while the presenter explains the detail verbally.
 
 ---
 
@@ -49,15 +505,29 @@ A useful test when writing slide content:
 
 If a bullet does not help a seller answer that question, rewrite it.
 
-All slide text must follow formatting rules defined in:
+---
 
-`references/writing-rules.md`
+# Scenario Consistency Rule
+
+All slides in the deck should reference **the same operational scenario**.
+
+The scenario is defined by:
+
+• a specific persona
+• a specific operational problem
+• a specific environment
+
+Every slide should reinforce this scenario rather than introducing unrelated examples.
+
+This keeps the presentation coherent and prevents generic or disconnected content.
 
 ---
 
-# Machine-Readable Slide Map
+# Machine‑Readable Slide Map
 
-This section maps slides to schema fields used to populate them. The schema itself is defined in:
+This section maps slides to schema fields used to populate them.
+
+The schema itself is defined in:
 
 `references/data-schema.md`
 
@@ -133,257 +603,284 @@ NEXT_STEP
 
 # Slide 10 — Elevator Pitch
 
+This slide provides the **simplest explanation of the capability**.
 
+It should allow a seller to explain the idea to another seller or a
+customer in **less than 30 seconds**.
 
+The goal is not perfect accuracy but **clear mental understanding**.
 
 ## Purpose
 
-Give the seller a **30-second explanation of the capability** they can repeat easily in conversation.
-
-The slide should create a **simple mental model** for what the technology does.
+Give sellers a short explanation they can confidently repeat in conversation.
 
 ## Intent
 
-• Describe the innovation in one or two clear sentences.
-• Avoid or minimize acronyms, architecture, or highly technical details.
-• Use a simple analogy if it helps make it memorable.
+• Explain what the capability is
+• Explain the outcome it creates
+• Provide a simple mental model
 
-
-
-The goal is clarity and memorability, not technical precision.
+This slide should feel like the **opening explanation in a conversation**, not
+like product documentation.
 
 ## Field Intent
 
 ELEVATOR_1
 
-Defines what the capability is in simple language.
+Defines what the capability is in clear, simple language.
 
 ELEVATOR_2
 
-Explains the primary outcome or benefit for users.
+Explains the primary outcome or benefit the capability creates.
 
 ELEVATOR_3
 
-Provides a simple analogy or mental shortcut that helps make the idea memorable.
+Provides an analogy or simple comparison that makes the idea memorable.
 
 ---
 
 # Slide 11 — Mental Model / Everyday Analogy
 
+This slide reinforces the elevator pitch with an **intuitive analogy**.
+
+Complex technologies are easier to remember when people can relate
+concepts to familiar experiences.
+
+The analogy should connect the technology to something people
+already understand.
+
+Examples:
+
+• GPS navigation
+• autopilot
+• a control tower
+• an assembly line
+
 ## Purpose
 
-Give the seller a **simple, intuitive everyday analogy** that makes the capability easier to understand.
-
-This slide should help the audience build a mental model before deeper positioning or value discussion.
+Help sellers quickly explain the concept using an intuitive comparison.
 
 ## Intent
 
-• Connect the capability to something familiar
-• Make the concept feel intuitive and memorable
-• Reinforce the explanation with a visual image
-
-The analogy should feel natural, practical, and easy to repeat in conversation.
+• Make the idea easier to visualize
+• Reinforce the explanation with imagery
+• Improve memorability
 
 ## Field Intent
 
 MENTAL_MODEL_TITLE
 
-A short phrase that names the analogy.
+A short phrase naming the analogy.
 
 MENTAL_MODEL_DESCRIPTION
 
-A short explanation of how the analogy maps to the capability.
+Explanation of how the analogy maps to the technology.
 
 MENTAL_MODEL_IMAGE_PROMPT
 
-A simple image description that could be used to find or generate a visual for the slide.
+Description used to generate or locate a visual for the slide.
 
 ---
 
 # Slide 12 — Positioning
 
+This slide answers the seller question:
+
+**"When should I bring this up in a deal?"**
+
+It helps sellers recognize the environments and signals that
+indicate the technology is relevant.
+
 ## Purpose
 
-Help sellers recognize **when this capability is relevant in a deal**.
-
-This slide helps an AE quickly decide whether to introduce the topic in conversation.
+Help sellers quickly determine whether the topic fits the customer's situation.
 
 ## Intent
 
-• Identify ideal situations
+• Identify ideal use cases
 • Provide an honest disqualifier
-• Highlight the trigger that starts the conversation
-• Give sellers a simple evaluation lens
+• Highlight the signal that starts the conversation
+
+The goal is to help sellers **qualify opportunities faster**.
 
 ## Field Intent
 
 POSITIONING_BEST
 
-Describes the situations or environments where this capability works best.
+Situations where the capability works particularly well.
 
 POSITIONING_NOT_FIT
 
-Provides an honest scenario where the capability is not a strong fit.
+Situations where the capability is unlikely to be useful.
 
 POSITIONING_START
 
-Identifies the typical trigger that starts the conversation.
+Customer signals that typically trigger the discussion.
 
 POSITIONING_LENS
 
-Gives sellers a simple evaluation framework for qualifying opportunities.
+Three evaluation criteria sellers can use to judge opportunity quality.
 
 ---
 
 # Slide 13 — Feels Different Because
 
+Customers often evaluate multiple technologies that appear similar.
+
+This slide explains **why this capability feels different in practice**.
+
+The emphasis should be on **what customers experience**, not
+internal architecture.
+
 ## Purpose
 
-Explain why this capability **feels meaningfully different from alternatives**.
-
-Focus on differences customers would actually experience.
+Highlight meaningful differences customers would notice.
 
 ## Intent
 
-• Highlight practical advantages
-• Show how operations improve
-• Reinforce simplicity or integration benefits
-
-Avoid internal architecture details.
+• Emphasize operational simplicity
+• Highlight practical improvements
+• Show why the experience is different
 
 ## Field Intent
 
 DIFFERENT_1
 
-Highlights a practical difference customers would notice immediately.
+A practical difference customers would immediately notice.
 
 DIFFERENT_2
 
-Highlights another operational or usability improvement that reinforces differentiation.
+Another meaningful operational improvement.
 
 ---
 
 # Slide 14 — Why This Matters to Customers
 
+This slide translates the technology into **real outcomes for customers**.
+
+Customers care about improved operations, reduced risk,
+and faster outcomes—not technical features.
+
 ## Purpose
 
-Translate the capability into **customer outcomes and business value**.
-
-This slide answers the customer question:
-
-"Why should we care about this?"
+Connect the capability to measurable operational improvements.
 
 ## Intent
 
-• Connect the capability to operational improvements
-• Show measurable benefits
-• Emphasize reliability, speed, or cost impact
+• Show operational impact
+• Show efficiency improvements
+• Connect the technology to business value
 
 ## Field Intent
 
 CUSTOMER_1
 
-Defines the primary operational outcome for the customer.
+Primary operational outcome created by the capability.
 
 CUSTOMER_2
 
-Shows an efficiency, productivity, or reliability improvement.
+Efficiency, reliability, or productivity improvement.
 
 CUSTOMER_3
 
-Connects the capability to broader business value.
+Broader business value or organizational impact.
 
 CUSTOMER_LENS
 
-Provides criteria customers use to evaluate solutions in this area.
+Criteria customers typically evaluate when selecting solutions.
 
 ---
 
 # Slide 15 — Why This Matters to You (AE)
 
+This slide translates the capability into **sales value**.
+
+It answers the seller question:
+
+**"How does this help me win deals?"**
+
 ## Purpose
 
-Explain why the capability matters specifically for **Elastic sellers**.
-
-This slide answers the seller question:
-
-"How does this help me win deals?"
+Help sellers recognize revenue and expansion opportunities.
 
 ## Intent
 
-• Highlight revenue opportunities
-• Show where deals can expand
+• Highlight deal entry points
+• Show expansion opportunities
 • Simplify competitive positioning
 
 ## Field Intent
 
 AE_1
 
-Shows how the capability removes friction or unlocks a conversation.
+How the capability helps open or advance conversations.
 
 AE_2
 
-Identifies a revenue opportunity or expansion motion.
+Revenue opportunity or expansion motion.
 
 AE_3
 
-Explains how the capability strengthens competitive positioning.
+How the capability improves competitive positioning.
 
 AE_LENS
 
-Provides a quick way for sellers to identify promising account types.
+Types of accounts where the capability is especially valuable.
 
 ---
 
 # Slide 17 — How to Sell
 
+This slide focuses on **deal motion and opportunity recognition**.
+
+It should provide guidance that sounds like practical advice
+from an experienced seller.
+
 ## Purpose
 
-Provide **practical guidance for recognizing and opening opportunities**.
-
-This slide focuses on **deal motion**, not product explanation.
+Help sellers recognize strong opportunities and start conversations.
 
 ## Intent
 
-• Identify strong opportunity signals
-• Identify weak opportunities
-• Provide a discovery question sellers can ask
+• Identify signals of urgency
+• Highlight weak or stalled opportunities
+• Provide a natural discovery question
 
 ## Field Intent
 
 SELL_PURSUE
 
-Describes the signal that indicates a strong opportunity.
+Signal indicating a strong opportunity or urgency.
 
 SELL_PAUSE
 
-Identifies a sign the opportunity may stall or lack urgency.
+Signal that the opportunity may stall or lacks urgency.
 
 SELL_OPEN
 
-Provides a discovery question that helps start the conversation.
+Discovery question that helps open the conversation.
 
 SELL_LENS
 
-Gives criteria sellers can use to qualify the opportunity.
+Qualification criteria for evaluating the opportunity.
 
 ---
 
 # Slide 18 — By the Numbers
 
+Metrics make the value story **credible and memorable**.
+
+Numbers should reinforce the outcomes described in earlier slides.
+
 ## Purpose
 
-Provide **credible metrics that reinforce the value story**.
-
-Numbers make the value believable and easier to repeat.
+Provide quantitative support for the value narrative.
 
 ## Intent
 
-• Support the narrative with evidence
+• Reinforce credibility
 • Show measurable improvements
-• Reinforce operational efficiency or cost reduction
-
-Metrics should be realistic and defensible.
+• Make the value easier to repeat
 
 ## Field Intent
 
@@ -393,103 +890,109 @@ First metric supporting the value narrative.
 
 METRIC_2_NUM / METRIC_2_LABEL / METRIC_2_DESC
 
-Second metric reinforcing operational or financial improvement.
+Second metric supporting operational improvement.
 
 METRIC_3_NUM / METRIC_3_LABEL / METRIC_3_DESC
 
-Third metric demonstrating efficiency, cost, or simplicity benefits.
+Third metric highlighting efficiency or simplicity gains.
 
 ---
 
 # Slide 19 — Customer Story / Proof Point
 
+Stories help sellers **visualize real-world usage**.
+
+The example can be real or realistic but should feel believable.
+
 ## Purpose
 
-Provide credibility through a **real or plausible customer example**.
-
-Stories help sellers visualize how the capability works in practice.
+Provide credibility through a concrete example.
 
 ## Intent
 
-• Show how a company used the capability
-• Highlight a clear improvement
-• Reinforce the value story
+• Demonstrate real-world usage
+• Reinforce outcomes
+• Make the capability easier to explain
 
 ## Field Intent
 
 CUSTOMER_STORY
 
-Names the company and briefly describes what they implemented.
+Company name and a brief description of what they implemented.
 
 CUSTOMER_STORY_DETAIL
 
-Highlights a specific improvement or measurable outcome.
+Specific improvement or measurable result.
 
 ---
 
 # Slide 20 — How NOT to Sell
 
+This slide protects sellers from **common mistakes that weaken deals**.
+
+It should be practical and opinionated.
+
 ## Purpose
 
-Prevent common positioning mistakes that weaken deals.
-
-This slide protects sellers from unproductive approaches.
+Prevent ineffective positioning approaches.
 
 ## Intent
 
-• Warn against technical deep dives
-• Discourage feature-driven selling
-• Prevent advancing deals without confirming the problem
+• Warn against technical-first explanations
+• Prevent feature-driven selling
+• highlight situations where the opportunity is weak
 
 ## Field Intent
 
 NOT_SELL_1
 
-Warns against a common positioning mistake.
+Common mistake sellers make when introducing the technology.
 
 NOT_SELL_2
 
-Highlights another behavior that weakens deals.
+Another behavior that weakens deal momentum.
 
 NOT_SELL_3
 
-Explains a mistake that often leads to stalled opportunities.
+Mistake that often leads to stalled opportunities.
 
 NOT_SELL_LENS
 
-Helps sellers identify when to qualify out of an opportunity.
+Signals that indicate the opportunity should be qualified out.
 
 ---
 
 # Slide 21 — How to Talk with Customers
 
+This slide simulates **real discovery dialogue** between sellers and customers.
+
+The language should feel natural and conversational.
+
 ## Purpose
 
-Provide conversational guidance sellers can use in discovery.
-
-This slide simulates realistic customer dialogue.  We want to define 3 things to listen for, 2 things to say, one thing to ask, and one next step.
+Help sellers practice discovery conversations.
 
 ## Intent
 
-• Surface common customer statements
+• Show what customers might say
 • Provide positioning responses
-• Suggest a discovery question
-• Guide the next step in the deal
+• Suggest discovery questions
+• define a clear next step
 
 ## Field Intent
 
 LISTEN_1 / LISTEN_2 / LISTEN_3
 
-Examples of realistic customer pain statements sellers might hear.
+Realistic customer statements a seller might hear.
 
 SAY_1 / SAY_2
 
-Short positioning responses that connect Elastic to the problem.
+Short positioning responses connecting Elastic to the problem.
 
 ASK_1
 
-A discovery question that deepens the conversation.
+Discovery question that deepens the conversation.
 
 NEXT_STEP
 
-A clear action that advances the opportunity.
+Concrete action that moves the deal forward.
