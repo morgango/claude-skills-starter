@@ -133,6 +133,9 @@ NEXT_STEP
 
 # Slide 10 — Elevator Pitch
 
+
+
+
 ## Purpose
 
 Give the seller a **30-second explanation of the capability** they can repeat easily in conversation.
@@ -141,11 +144,27 @@ The slide should create a **simple mental model** for what the technology does.
 
 ## Intent
 
-• Define the capability clearly
-• Emphasize the primary outcome
-• Provide a simple analogy
+• Describe the innovation in one or two clear sentences.
+• Avoid or minimize acronyms, architecture, or highly technical details.
+• Use a simple analogy if it helps make it memorable.
+
+
 
 The goal is clarity and memorability, not technical precision.
+
+## Field Intent
+
+ELEVATOR_1
+
+Defines what the capability is in simple language.
+
+ELEVATOR_2
+
+Explains the primary outcome or benefit for users.
+
+ELEVATOR_3
+
+Provides a simple analogy or mental shortcut that helps make the idea memorable.
 
 ---
 
@@ -196,6 +215,24 @@ This slide helps an AE quickly decide whether to introduce the topic in conversa
 • Highlight the trigger that starts the conversation
 • Give sellers a simple evaluation lens
 
+## Field Intent
+
+POSITIONING_BEST
+
+Describes the situations or environments where this capability works best.
+
+POSITIONING_NOT_FIT
+
+Provides an honest scenario where the capability is not a strong fit.
+
+POSITIONING_START
+
+Identifies the typical trigger that starts the conversation.
+
+POSITIONING_LENS
+
+Gives sellers a simple evaluation framework for qualifying opportunities.
+
 ---
 
 # Slide 13 — Feels Different Because
@@ -213,6 +250,16 @@ Focus on differences customers would actually experience.
 • Reinforce simplicity or integration benefits
 
 Avoid internal architecture details.
+
+## Field Intent
+
+DIFFERENT_1
+
+Highlights a practical difference customers would notice immediately.
+
+DIFFERENT_2
+
+Highlights another operational or usability improvement that reinforces differentiation.
 
 ---
 
@@ -232,6 +279,24 @@ This slide answers the customer question:
 • Show measurable benefits
 • Emphasize reliability, speed, or cost impact
 
+## Field Intent
+
+CUSTOMER_1
+
+Defines the primary operational outcome for the customer.
+
+CUSTOMER_2
+
+Shows an efficiency, productivity, or reliability improvement.
+
+CUSTOMER_3
+
+Connects the capability to broader business value.
+
+CUSTOMER_LENS
+
+Provides criteria customers use to evaluate solutions in this area.
+
 ---
 
 # Slide 15 — Why This Matters to You (AE)
@@ -250,6 +315,24 @@ This slide answers the seller question:
 • Show where deals can expand
 • Simplify competitive positioning
 
+## Field Intent
+
+AE_1
+
+Shows how the capability removes friction or unlocks a conversation.
+
+AE_2
+
+Identifies a revenue opportunity or expansion motion.
+
+AE_3
+
+Explains how the capability strengthens competitive positioning.
+
+AE_LENS
+
+Provides a quick way for sellers to identify promising account types.
+
 ---
 
 # Slide 17 — How to Sell
@@ -265,6 +348,24 @@ This slide focuses on **deal motion**, not product explanation.
 • Identify strong opportunity signals
 • Identify weak opportunities
 • Provide a discovery question sellers can ask
+
+## Field Intent
+
+SELL_PURSUE
+
+Describes the signal that indicates a strong opportunity.
+
+SELL_PAUSE
+
+Identifies a sign the opportunity may stall or lack urgency.
+
+SELL_OPEN
+
+Provides a discovery question that helps start the conversation.
+
+SELL_LENS
+
+Gives criteria sellers can use to qualify the opportunity.
 
 ---
 
@@ -284,6 +385,20 @@ Numbers make the value believable and easier to repeat.
 
 Metrics should be realistic and defensible.
 
+## Field Intent
+
+METRIC_1_NUM / METRIC_1_LABEL / METRIC_1_DESC
+
+First metric supporting the value narrative.
+
+METRIC_2_NUM / METRIC_2_LABEL / METRIC_2_DESC
+
+Second metric reinforcing operational or financial improvement.
+
+METRIC_3_NUM / METRIC_3_LABEL / METRIC_3_DESC
+
+Third metric demonstrating efficiency, cost, or simplicity benefits.
+
 ---
 
 # Slide 19 — Customer Story / Proof Point
@@ -299,6 +414,16 @@ Stories help sellers visualize how the capability works in practice.
 • Show how a company used the capability
 • Highlight a clear improvement
 • Reinforce the value story
+
+## Field Intent
+
+CUSTOMER_STORY
+
+Names the company and briefly describes what they implemented.
+
+CUSTOMER_STORY_DETAIL
+
+Highlights a specific improvement or measurable outcome.
 
 ---
 
@@ -316,6 +441,24 @@ This slide protects sellers from unproductive approaches.
 • Discourage feature-driven selling
 • Prevent advancing deals without confirming the problem
 
+## Field Intent
+
+NOT_SELL_1
+
+Warns against a common positioning mistake.
+
+NOT_SELL_2
+
+Highlights another behavior that weakens deals.
+
+NOT_SELL_3
+
+Explains a mistake that often leads to stalled opportunities.
+
+NOT_SELL_LENS
+
+Helps sellers identify when to qualify out of an opportunity.
+
 ---
 
 # Slide 21 — How to Talk with Customers
@@ -332,3 +475,21 @@ This slide simulates realistic customer dialogue.  We want to define 3 things to
 • Provide positioning responses
 • Suggest a discovery question
 • Guide the next step in the deal
+
+## Field Intent
+
+LISTEN_1 / LISTEN_2 / LISTEN_3
+
+Examples of realistic customer pain statements sellers might hear.
+
+SAY_1 / SAY_2
+
+Short positioning responses that connect Elastic to the problem.
+
+ASK_1
+
+A discovery question that deepens the conversation.
+
+NEXT_STEP
+
+A clear action that advances the opportunity.

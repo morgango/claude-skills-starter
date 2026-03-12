@@ -23,6 +23,15 @@ var data = {
 
   TECH_NAME: '[Technology Name]',
 
+  PERSONA: '[Primary team or buyer this presentation targets].',
+  SITUATION: '[Short description of the operational situation the team faces].',
+
+  SCENARIO: '[One or two sentence operational scenario derived from the persona and situation].',
+
+  // Scenario Anchor
+  // Derived from PERSONA + SITUATION
+  // Represents the real operational situation that all slides should reinforce
+
   // Slide 10: Elevator Pitch
   // Plain-language explanation for non-technical sellers
 
@@ -125,6 +134,8 @@ All generated values must also conform to the rules defined in:
 
 Important constraints include:
 
+• PERSONA and SITUATION must be provided before generating the SCENARIO
+
 • Maximum 10–12 words per field
 • No em dashes
 • No label prefixes
@@ -137,7 +148,7 @@ Important constraints include:
 
 Before attempting deck automation, the skill must confirm:
 
-1. Every schema key is present, including the mental model fields
+1. Every schema key is present, including persona, situation, scenario, and mental model fields
 2. No additional keys were added
 3. Word limits are respected
 4. Lens sentences follow exact phrasing
@@ -155,5 +166,9 @@ Once validated, the object becomes the input to the Apps Script function:
 `createDeckFromData(data)`
 
 The automation layer should not modify or reinterpret the object.
+
+This includes preserving the scenario field so the deck remains anchored to one operational story.
+
+PERSONA and SITUATION should also be preserved so the scenario context remains clear.
 
 It should only inject the validated structure into the template script and execute the deck creation function.
