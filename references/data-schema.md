@@ -87,19 +87,23 @@ var data = {
   METRIC_1_NUM:   '[Example: 3x]',
   METRIC_1_LABEL: '[Example: Faster]',
   METRIC_1_DESC:  '[Sentence explaining what is faster and why it matters].',
+  METRIC_1_URL:   '[Source URL for the metric, e.g. https://elastic.co/customers/example]',
 
   METRIC_2_NUM:   '[Example: 40%]',
   METRIC_2_LABEL: '[Example: Less Cost]',
   METRIC_2_DESC:  '[Sentence explaining source of cost savings].',
+  METRIC_2_URL:   '[Source URL for the metric]',
 
   METRIC_3_NUM:   '[Example: 1]',
   METRIC_3_LABEL: '[Example: Platform]',
   METRIC_3_DESC:  '[Sentence explaining simplification or consolidation].',
+  METRIC_3_URL:   '[Source URL for the metric]',
 
   // Slide 19: Customer Story
 
   CUSTOMER_STORY:        '[Company] used [technology] and achieved [result].',
   CUSTOMER_STORY_DETAIL: '[Specific measurable improvement or operational benefit].',
+  CUSTOMER_STORY_URL:    '[Source URL for the customer story]',
 
   // Slide 20: How NOT to Sell
 
